@@ -1,28 +1,28 @@
 class Speechall < Formula
   desc "CLI for speech-to-text transcription via the Speechall API"
   homepage "https://github.com/Speechall/speechall-cli"
-  version "2.4.1"
+  version "2.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Speechall/speechall-cli/releases/download/v2.4.1/speechall-2.4.1-macos-arm64.tar.gz"
-      sha256 "eac397a18f5f703384320e8430824bd0fd65eee22b0fecc97bef573d7fbf6ea3"
+      url "https://github.com/Speechall/speechall-cli/releases/download/v2.5.0/speechall-2.5.0-macos-arm64.tar.gz"
+      sha256 "7bd262fae3b4a246cc334163f3046af4ede35f087f1e065f75ae1d8d1703bdcf"
     end
     on_intel do
-      url "https://github.com/Speechall/speechall-cli/releases/download/v2.4.1/speechall-2.4.1-macos-amd64.tar.gz"
-      sha256 "f1029d5e7613f02f7f8354409d381a6cf285fdb8cd640c7276269d8eee9427d0"
+      url "https://github.com/Speechall/speechall-cli/releases/download/v2.5.0/speechall-2.5.0-macos-amd64.tar.gz"
+      sha256 "8f729692e36acd77f073d634d565249ed42b4c061d9fce0f17b60977c269a28b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Speechall/speechall-cli/releases/download/v2.4.1/speechall-2.4.1-linux-arm64.tar.gz"
-      sha256 "a2278c63c829d222aa30d8ae41afb12332704541bd778ec5baf3827add961c93"
+      url "https://github.com/Speechall/speechall-cli/releases/download/v2.5.0/speechall-2.5.0-linux-arm64.tar.gz"
+      sha256 "c4d08d3eddb5c46fc451a0e16363b533f10fc0277d4b10cc53c7d6eb53b44efd"
     end
     on_intel do
-      url "https://github.com/Speechall/speechall-cli/releases/download/v2.4.1/speechall-2.4.1-linux-amd64.tar.gz"
-      sha256 "543118d826aa73f92e927be735357cb826d366419e2d920b75c11baa43feb3bd"
+      url "https://github.com/Speechall/speechall-cli/releases/download/v2.5.0/speechall-2.5.0-linux-amd64.tar.gz"
+      sha256 "f67a64fb6a9d036168b8f63a57c901e20867d93cd634eb8fc74ef6d2de29a355"
     end
   end
 
